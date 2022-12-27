@@ -126,7 +126,6 @@
       }
     }
   },
-  "defaultProject": "wf-rxjs-demos",
   "cli": {
     "analytics": "b1a72e94-a89f-4bac-a534-279e12946e11"
   }
