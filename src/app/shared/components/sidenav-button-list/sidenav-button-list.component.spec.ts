@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
 import { SidenavButtonListComponent } from './sidenav-button-list.component';
 
@@ -6,7 +6,7 @@ describe('SidenavButtonListComponent', () => {
   let component: SidenavButtonListComponent;
   let fixture: ComponentFixture<SidenavButtonListComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ SidenavButtonListComponent ]
     })
